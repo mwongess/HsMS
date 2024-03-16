@@ -3,9 +3,9 @@ import TeachersSideNav from "../components/TeachersSideNav"
 
 const TeachersDashboard = () => {
     return (
-        <div>
+        <div className="flex">
             <TeachersSideNav />
-            <div>
+            <div className="w-[85vw">
                 <Outlet />
             </div>
         </div>

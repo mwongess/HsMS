@@ -3,9 +3,9 @@ import ParentsSideNav from "../components/ParentsSideNav"
 
 const ParentsDashboard = () => {
     return (
-        <div>
+        <div className="flex">
             <ParentsSideNav />
-            <div>
+            <div className="w-[80vw]">
                 <Outlet />
             </div>
         </div>
