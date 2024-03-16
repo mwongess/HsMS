@@ -1,7 +1,15 @@
+import { Outlet } from "react-router-dom"
+import ParentsSideNav from "../components/ParentsSideNav"
+
 const ParentsDashboard = () => {
-  return (
-    <div>ParentsDashboard</div>
-  )
+    return (
+        <div>
+            <ParentsSideNav />
+            <div>
+                <Outlet />
+            </div>
+        </div>
+    )
 }
 
 export default ParentsDashboard

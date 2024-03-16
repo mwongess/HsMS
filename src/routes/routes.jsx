@@ -7,9 +7,9 @@ export const router = createBrowserRouter(
     createRoutesFromElements(
         <Route >
             <Route path="/" element={<AppLayout />} >
+            </Route>
                 <Route path="login" element={<LoginPage />} />
                 <Route path="signup" element={<SignupPage />} />
-            </Route>
         </Route>
     )
 )
