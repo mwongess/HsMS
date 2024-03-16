@@ -6,6 +6,6 @@ export const useAppContext = () => useContext(useAppContext);
 
 export const AppContextProvider = () => {
     return (
-        <AppContext.Provider value={{}}></AppContext.Provider>
+        <AppContext.Provider></AppContext.Provider>
     )
 }

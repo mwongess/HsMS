@@ -6,9 +6,9 @@ import { router } from './routes/routes'
 function App() {
 
   return (
-    <AppContextProvider>
+    // <AppContextProvider>
       <RouterProvider router={router} />
-    </AppContextProvider>
+    // </AppContextProvider>
   )
 }
 
