@@ -6,7 +6,7 @@ const Header = () => {
             <div className="logo">
                 <p>Logo</p>
             </div>
-            <div>
+            <div className="flex gap-4 bg-[#c000a4] text-white p-2 rounded-sm">
                 <Link>Home</Link>
                 <Link>Parent Login</Link>
                 <Link>Parent Register</Link>

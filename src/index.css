@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav div a {
+    @apply flex items-center gap-2
+}
+.active{
+    @apply text-[#c000a4]
+}

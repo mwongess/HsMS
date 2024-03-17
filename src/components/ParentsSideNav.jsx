@@ -1,13 +1,14 @@
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
+import { FaHome, FaList, FaUsers } from "react-icons/fa";
 
 const ParentsSideNav = () => {
     return (
-        <div className="h-screen flex flex-col justify-between p-4">
+        <div className="nav h-screen flex flex-col justify-between p-4 w-[15vw] bg-[#f3f4f6]">
             <div className="flex flex-col gap-4">
                 <div className="logo"></div>
-                <Link>Dashboard</Link>
-                <Link>My kids</Link>
-                <Link>Profile</Link>
+                <NavLink to=""><FaHome /> Dashboard</NavLink>
+                <NavLink to="mykids">< FaList /> My kids</NavLink>
+                <NavLink to="profile"><FaUsers /> Profile</NavLink>
             </div>
             <div>
                 <Link>Logout</Link>
