@@ -16,6 +16,9 @@ const ParentsHome = () => {
                     </span>
                 </p>
             </div>
+            <div className="flex items-center justify-center mt-4">
+                <img className="w-[90%]" src="/home.webp" alt="" />
+            </div>
         </div>
     )
 }
