@@ -7,11 +7,11 @@ const Header = () => {
                 <p>Logo</p>
             </div>
             <div className="flex gap-4 bg-[#c000a4] text-white p-2 rounded-sm">
-                <Link>Home</Link>
-                <Link>Parent Login</Link>
-                <Link>Parent Register</Link>
-                <Link>Teacher Login</Link>
-                <Link>Teacher Signup</Link>
+                <Link to="/">Home</Link>
+                <Link to="/parents">Parent Login</Link>
+                <Link to="">Parent Register</Link>
+                <Link to="/teachers">Teacher Login</Link>
+                <Link to="">Teacher Signup</Link>
             </div>
         </div>
     )
