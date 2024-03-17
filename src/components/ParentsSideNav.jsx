@@ -6,7 +6,7 @@ const ParentsSideNav = () => {
         <div className="nav h-screen flex flex-col justify-between p-4 w-[15vw] bg-[#f3f4f6]">
             <div className="flex flex-col gap-4">
                 <div className="logo"></div>
-                <NavLink to=""><FaHome /> Dashboard</NavLink>
+                <NavLink exact to="/parents" ><FaHome /> Dashboard</NavLink>
                 <NavLink to="mykids">< FaList /> My kids</NavLink>
                 <NavLink to="profile"><FaUsers /> Profile</NavLink>
             </div>

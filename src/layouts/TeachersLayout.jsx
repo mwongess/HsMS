@@ -5,7 +5,7 @@ const TeachersDashboard = () => {
     return (
         <div className="flex">
             <TeachersSideNav />
-            <div className="w-[85vw">
+            <div className="w-[85vw] px-12 py-6">
                 <Outlet />
             </div>
         </div>
